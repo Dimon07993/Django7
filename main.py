@@ -312,35 +312,61 @@ class MyServer(BaseHTTPRequestHandler):
                         </form>
                     </div>
                 </div>
+                
                 <div class="container my-5">
-                    <h2 class="text-center mb-4">FAQ</h2>
-                        <div class="row justify-content-center">
-                            <div class="col-md-4">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Как купить?</h5>
-                                        <p class="card-text">Чтобы купить товар, нажмите на кнопку "Купить" под карточкой товара. Вы будете перенаправлены на страницу оплаты, где сможете ввести информацию о платеже и завершить покупку.</p>
-                                    </div>
-                                </div>
+                <h2 class="text-center mb-4">FAQ</h2>
+                <div class="row justify-content-center">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="false" aria-controls="faq1">
+                                        Как купить?
+                                    </button>
+                                </h5>
                             </div>
-                            <div class="col-md-4">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Как доставить?</h5>
-                                        <p class="card-text">Мы предлагаем несколько вариантов доставки, в том числе курьерскую доставку и доставку почтой России. После оформления заказа, мы свяжемся с вами, чтобы обсудить наиболее удобный для вас вариант доставки.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Какая гарантия?</h5>
-                                        <p class="card-text">Мы предлагаем гарантию качества на все наши товары. Если вы не удовлетворены качеством товара, пожалуйста свяжитесь с нами в течение 30 дней после получения товара, и мы решим ваш вопрос.</p>
-                                    </div>
+                            <div id="faq1" class="collapse">
+                                <div class="card-body">
+                                    Чтобы купить товар, нажмите на кнопку "Купить" под карточкой товара. Вы будете перенаправлены на страницу оплаты, где сможете ввести информацию о платеже и завершить покупку.
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                                        Как доставить?
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="faq2" class="collapse">
+                                <div class="card-body">
+                                    Мы предлагаем несколько вариантов доставки, в том числе курьерскую доставку и доставку почтой России. После оформления заказа, мы свяжемся с вами, чтобы обсудить наиболее удобный для вас вариант доставки.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                                        Какая гарантия?
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="faq3" class="collapse">
+                                <div class="card-body">
+                                    Мы предлагаем гарантию качества на все наши товары. Если вы не удовлетворены качеством товара, пожалуйста, свяжитесь с нами в течение 30 дней после получения товара, и мы решим ваш вопрос.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </div>
+
             </div>
         </main>
 
